@@ -1,0 +1,5 @@
+#File application-prod là những config chỉ xuất hiện trên môi trường production
+jwt:
+  signerKey: "ssVh4ZMMq4lbxgs3Dr3aU4zZu9NRTB8K27sxbyZA20wL1lTJDq6CBjLz66ZVXKW/"
+  valid-duration: 7200 #in seconds
+  refreshable-duration: 72000 #in seconds
